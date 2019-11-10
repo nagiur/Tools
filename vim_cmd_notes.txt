@@ -1,0 +1,67 @@
+# Vim delete commands
+
+1. Delete character
+	x  - Current cursor position
+	5x - Curennt cursor position to next 5 character
+
+2. Delete word 
+	dw  - Delete current word
+	5dw - Delete current word to next 5 word
+
+3. Delete line
+	dd  - Delete Line
+	5dd - Delete next 5 line  
+
+4. Delete to End of line or Beginning of line
+	d0 - Current cursor to Beginning of the current line
+	d$ - Current cursor to End of current line
+ 
+5. Delete to beginning or End of file
+	:1,.d - Current cursor position to Beginning of file
+	:.,$d - Current cursor position to the end of file
+
+
+# Vim Cut and Past Commands
+
+1. Cut 
+	Almost all Delete command work as Cut( Because places it in Buffer)
+
+2. Copy 
+	y   - Stands for yank(A sudden hard pull)
+	yy  - Yank
+	5yy - Yank 5 Lines
+
+3. Past
+	p - Past(Below current line)
+	P - Past(Above current line)
+
+
+# Editing Commands
+	i - Insert
+	o - Open a new line(Below)
+	O - Open a new line(Above)
+	a - Append
+	A - Append at End of the line
+	u - Undo
+	. - Repeat last command
+
+
+# Navigation - Up, Down 
+
+		k
+	h		l
+		j 				
+
+	3[Up/k] - move up 3 lines
+	3[Down/j] - Move down 3 lines	
+	4G - Go to line 4
+	H - Go to top screen(High)
+	M - Go to middle of Screen(Middle)
+	L - Go to Bottom of Screen(low)
+
+# Saving, Exiting
+	:w  - Write contents t disk
+	:wq - Write contents and quit
+	 ZZ - Write contents and quit
+	:q!	- Quit and don't save changes
+
